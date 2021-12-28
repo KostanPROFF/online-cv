@@ -46,8 +46,8 @@ sidebar:
 
 career-profile:
     title: This site
-    summary: |
-      was created on Amazon S3 for the purpose of demonstrating skills in using Terraform, Github Action and AWS (Route53, Cloudfront, Certificate Manager).
+    role: was created on Amazon S3 for the purpose of demonstrating skills in using Terraform, Github Action and AWS (Route53, Cloudfront, Certificate Manager).
+
 education:
     - degree: Computer Applications Field Of Study IT
       university: Kyiv National University Of Construction And Architecture
@@ -58,113 +58,46 @@ education:
       time: 2008 - 2013
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - role: DevOps Project work
+      time: 2020 - Present
+    
+    - role: 3D Graphic Designer
+      time: 2015 - 2020
+    
+    - role: Freelance Web and Graphic Designer
+      time: 2005 - 2015
+     
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    intro: - Knowledge of DevOps principles and philosophy
+          - Organization of continuous integration and code delivery processes
+          - Working with cloud services
+          - Working with computer networks, knowledge of Cisco Packet Tracer
+          - Stability and security of wired and wireless networks
+          - Working with modern software development methods
+          - I am proficient in the IaC approach, using Packer and Terraform for this purpose.
+          - Can write Ansible playbook to automate deployment and routine tasks.
+          - Packed sites into Docker for future upgrades by setting up a CI/CD pipeline, using Jenkins to continuously deliver updates to the web application.
+          - My research experiences have been positive ones due in part to my interpersonal skills. I work well in teams, am reliable and organized, and enthusiastic to lean. I am sure that I will carry over the same enthusiasm and skill in doing perfect job at your company.
+          - Learned from experienced teachers working at Google, Amazon, Facebook, Apple.
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills &amp; Technology stack
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: - Linux, Ubuntu, Debian, CentOS
+      - name: - Python, Bash
+      - name: - Ansible
+      - name: - Terraform, Packer
+      - name: - Jenkins, Github Actions, Gitlab CI
+      - name: - Prometheus, Grafana
+      - name: - Docker
+      - name: - Kubernetes
+      - name: - AWS, GCP, Cloud architecture
+      - name: - Apache, Nginx
+      - name: - MySQL, PostgreSQL, NoSQL
+      - name: - Git, GitHub, Gitlab
+      - name: - VirtualBox, VMWare, Vagrant
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://kostanproff.com" target="_blank" rel="nofollow">Konstantin Kozulko</a>
+    All rights reserved © <a href="http://kostanproff.com" target="_blank" rel="nofollow">Konstantin Kozulko</a>
