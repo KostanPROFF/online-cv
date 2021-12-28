@@ -7,78 +7,56 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Konstantin Kozulko
+    tagline: DevOps Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    email: 2913814@gmail.com
+    phone: +380 93 875 13 57
+    website: kostanproff.com #do not add http://
+    telegram: kostanproff # add your nickname without '@' sign
+    linkedin: kostanproff
+    github: kostanproff
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: /sample.pdf
 
     languages:
-      - idiom: English
+      - idiom: Russian
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: Ukrainian
+        level: Native
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: Beginner (A2)
 
     interests:
-      - item: Climbing
+      - item: Urbanism
         link:
 
-      - item: Snowboarding
+      - item: Travels
         link:
 
-      - item: Cooking
-        link:
 
 career-profile:
-    title: Career Profile
+    title: This site
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      was created on Amazon S3 for the purpose of demonstrating skills in using Terraform, Github Action and AWS (Route53, Cloudfront, Certificate Manager).
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: Computer Applications Field Of Study IT
+      university: Kyiv National University Of Construction And Architecture
+      time: 1999 - 2002
+      
+    - degree: Bachelor's degree in computer-aided environmental-economic monitoring.
+      university: Open International University of Human Development "Ukraine"
+      time: 2008 - 2013
+
 experiences:
     - role: Lead Developer
       time: 2015 - Present
