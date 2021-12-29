@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -45,8 +45,9 @@ sidebar:
 
 
 career-profile:
-    title: This site
-    role: was created on Amazon S3 for the purpose of demonstrating skills in using Terraform, Github Action and AWS (Route53, Cloudfront, Certificate Manager).
+    title: About this site
+    summary: | 
+      Сreated on Amazon S3 for the purpose of demonstrating skills in using Terraform, Github Action and AWS (Route53, Cloudfront, Certificate Manager).
 
 education:
     - degree: Computer Applications Field Of Study IT
@@ -69,35 +70,37 @@ experiences:
      
 projects:
     title: Projects
-    intro: - Knowledge of DevOps principles and philosophy
-          - Organization of continuous integration and code delivery processes
-          - Working with cloud services
-          - Working with computer networks, knowledge of Cisco Packet Tracer
-          - Stability and security of wired and wireless networks
-          - Working with modern software development methods
-          - I am proficient in the IaC approach, using Packer and Terraform for this purpose.
-          - Can write Ansible playbook to automate deployment and routine tasks.
-          - Packed sites into Docker for future upgrades by setting up a CI/CD pipeline, using Jenkins to continuously deliver updates to the web application.
-          - My research experiences have been positive ones due in part to my interpersonal skills. I work well in teams, am reliable and organized, and enthusiastic to lean. I am sure that I will carry over the same enthusiasm and skill in doing perfect job at your company.
-          - Learned from experienced teachers working at Google, Amazon, Facebook, Apple.
+    intro: That's what I did in the course
+    assignments:
+      - title: Knowledge of DevOps principles and philosophy
+      - title: Organization of continuous integration and code delivery processes
+      - title: Working with cloud services
+      - title: Working with computer networks, knowledge of Cisco Packet Tracer
+      - title: Stability and security of wired and wireless networks
+      - title: Working with modern software development methods
+      - title: I am proficient in the IaC approach, using Packer and Terraform for this purpose.
+      - title: Can write Ansible playbook to automate deployment and routine tasks.
+      - title: Packed sites into Docker for future upgrades by setting up a CI/CD pipeline, using Jenkins to continuously deliver updates to the web application.
+      - title: My research experiences have been positive ones due in part to my interpersonal skills. I work well in teams, am reliable and organized, and enthusiastic to lean. I am sure that I will carry over the same enthusiasm and skill in doing perfect job at your company.
+      - title: Learned from experienced teachers working at Google, Amazon, Facebook, Apple.
 
-skills:
+publications:
     title: Skills &amp; Technology stack
 
-    toolset:
-      - name: - Linux, Ubuntu, Debian, CentOS
-      - name: - Python, Bash
-      - name: - Ansible
-      - name: - Terraform, Packer
-      - name: - Jenkins, Github Actions, Gitlab CI
-      - name: - Prometheus, Grafana
-      - name: - Docker
-      - name: - Kubernetes
-      - name: - AWS, GCP, Cloud architecture
-      - name: - Apache, Nginx
-      - name: - MySQL, PostgreSQL, NoSQL
-      - name: - Git, GitHub, Gitlab
-      - name: - VirtualBox, VMWare, Vagrant
+    papers:
+      - title: Linux, Ubuntu, Debian, CentOS
+      - title: Python, Bash
+      - title: Ansible
+      - title: Terraform, Packer
+      - title: Jenkins, Github Actions, Gitlab CI
+      - title: Prometheus, Grafana
+      - title: Docker
+      - title: Kubernetes
+      - title: AWS, GCP, Cloud architecture
+      - title: Apache, Nginx
+      - title: MySQL, PostgreSQL, NoSQL
+      - title: Git, GitHub, Gitlab
+      - title: VirtualBox, VMWare, Vagrant
 
 footer: >
     All rights reserved © <a href="http://kostanproff.com" target="_blank" rel="nofollow">Konstantin Kozulko</a>
