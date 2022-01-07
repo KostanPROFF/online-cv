@@ -1,33 +1,33 @@
-name: CI / CD
+name: CI/CD My site to Amazon S3
 
-# Controls when the action will run. 
 on:
-  # Triggers the workflow on push for the main branch
-  push:
-    branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-  
-env:
-  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  AWS_DEFAULT_REGION: 'eu-central-1'
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+  push
+    
 jobs:
-  build:
+  jekyll:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
+
+    # Use GitHub Actions' cache to shorten build times and decrease load on servers
+    - uses: actions/cache@v1
       with:
-        ruby-version: 2.6
-        bundler-cache: true
-    - name: "Build Site"
-      run: bundle exec jekyll build
-      env:
-        JEKYLL_ENV: production
-    - name: "Deploy to AWS S3"
-      run: aws s3 sync ./_site/ s3://${{ secrets.AWS_S3_BUCKET_NAME }} --acl public-read --delete --cache-control max-age=604800
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+
+    # Standard usage
+    - uses:  lemonarc/jekyll-action@1.0.0
+    
+    # Example deployment: Push to S3
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: eu-central-1
+
+    - name: Sync output to S3
+      run: |
+        aws s3 sync ./_site/ s3://kostanproff.com --delete
