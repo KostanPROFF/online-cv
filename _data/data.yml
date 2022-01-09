@@ -92,7 +92,7 @@ publications:
       - title: Python, Bash
       - title: Ansible
       - title: Terraform, Packer
-      - title: Jenkins, Github Actions, Gitlab CI
+      - title: Jenkins, Github Actions, Gitlab CI, Travis CI, CircleCI
       - title: Prometheus, Grafana
       - title: Docker
       - title: Kubernetes
